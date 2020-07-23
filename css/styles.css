@@ -248,11 +248,76 @@ body{
 	border-top-right-radius: 0px; 
   }
 
-  .html {width: 80%; background-color: #4CAF50;}
-  .css {width: 83%; background-color: #808080;}
-  .ml {width: 90%; background-color:#f44336;}
-  .dl {width: 90%; background-color:#F9AA33;}
-  .android {width: 70%; background-color: #9f12ea;}
-  .dsa {width: 90%; background-color: #2196F3;}
-  .cpp {width: 90%; background-color: #2196F3;}
-  .sql {width: 80%; background-color: #f44336;}
+  .html {width: 80%; background-color: #4CAF50;animation: html 4s;}
+  .css {width: 83%; background-color: #808080;animation: css 4s;}
+  .ml {width: 90%; background-color:#f44336;animation: ml 4s;}
+  .dl {width: 90%; background-color:#F9AA33;animation: dl 4s;}
+  .android {width: 70%; background-color: #9f12ea;animation: android 4s;}
+  .dsa {width: 90%; background-color: #2196F3;animation: dsa 4s;}
+  .cpp {width: 90%; background-color: #2196F3;animation: cpp 4s;}
+  .sql {width: 80%; background-color: #f44336;animation: sql 4s;}
+
+  @keyframes html{
+	  0%{
+		  width: 0%;
+	  }
+	  100%{
+		  width: 80%;
+	  }
+  }
+  @keyframes css{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 83%;
+	}
+}
+@keyframes ml{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 90%;
+	}
+}
+@keyframes dl{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 90%;
+	}
+}
+@keyframes android{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 70%;
+	}
+}
+@keyframes dsa{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 90%;
+	}
+}
+@keyframes cpp{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 90%;
+	}
+}
+@keyframes sql{
+	0%{
+		width: 0%;
+	}
+	100%{
+		width: 80%;
+	}
+}
