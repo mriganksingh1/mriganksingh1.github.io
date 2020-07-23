@@ -107,7 +107,6 @@ body{
 	justify-content: space-between;
 }
 
-.skills .li_wrap,
 .hobbies .li_wrap{
 	width: 100px;
 	height: 100px;
@@ -235,3 +234,25 @@ body{
 	height: 90%;
 	background: #9153c9;
 }
+
+.container{
+	width: 90%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.skills {
+	text-align: right;  
+	color: white;
+	border-radius: 5px;
+	border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px; 
+  }
+
+  .html {width: 80%; background-color: #4CAF50;}
+  .css {width: 83%; background-color: #808080;}
+  .ml {width: 90%; background-color:#f44336;}
+  .dl {width: 90%; background-color:#F9AA33;}
+  .android {width: 70%; background-color: #9f12ea;}
+  .dsa {width: 90%; background-color: #2196F3;}
+  .cpp {width: 90%; background-color: #2196F3;}
+  .sql {width: 80%; background-color: #f44336;}
